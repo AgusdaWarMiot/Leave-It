@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Como Reacciona Tu Cuerpo Al Dejar De Fumar?"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@color/colorNegro"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:gravity="center"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="A los 20 minutos La tensión arterial y el pulso se normalizan"
+                android:textSize="20dp"
+                android:textColor="@color/colorNegro"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+                android:gravity="center"
+
+                android:text="A 24 horas los pulmones empiezan a trabajar para eliminar las partículas acumuladas. A estas alturas, ya se respira mejor.
+"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:gravity="center"
+                android:text="A las 48 horas las habilidades del gusto y el olfato empiezan a volver"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="A las 72 horas el paso del aire que va hacia los pulmones se facilita. La respiracion se hace mas facil y aumentan los nivles de energia"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="De 2 a 12 semanas la circulación y la tolerancia al ejercicio comienzan a mejorar.
+"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="De 3 a 9 meses la función pulmonar aumenta un 10% y la tos y la dificultad para respirar comienzan a disminuir. Se está más en forma y más fuerte."
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Al 1 año el riesgo de enfermedad cardiaca desciende a la mitad del de un fumador."
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="A los 10 años el riesgo de cáncer de pulmón disminuye a menos de la mitad de aquellos que continúan fumando y disminuye la incidencia de otros cánceres"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="A los 15 años el riesgo de ataque al corazón es igual al de una persona que nunca ha fumado."
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="A los 15 años el riesgo de ataque al corazón es igual al de una persona que nunca ha fumado."
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

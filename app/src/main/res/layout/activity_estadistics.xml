@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estadistics">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:text="Tiempo Sin \n Fumar"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:text="Dinero \n Ahorrado"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="375dp"
+            android:gravity="center"
+            android:text="Cigarrillos \n Evitados"
+            android:textSize="18dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="375dp"
+            android:gravity="center"
+            android:text="Vida \n Recuperada"
+            android:textSize="18dp"
+            />
+
+
+        <Chronometer
+            android:id="@+id/chr_NoSmoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="320dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="445dp"
+            android:gravity="center"
+            android:text="-----------------"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/HOLAAA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="320dp"
+            android:gravity="center"
+            android:text="-----------------"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="445dp"
+            android:gravity="center"
+            android:text="-----------------"
+            android:textSize="18dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="500dp"
+            >
+
+            <Button
+                android:id="@+id/btn_Game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="DISTRACCION"
+                />
+
+            <Button
+                android:id="@+id/btn_Wall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="COMUNIDAD" />
+
+            <Button
+                android:id="@+id/btn_Stadistics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ESTADISTICAS"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="@android:color/black"
+
+                />
+            <Button
+                android:id="@+id/btn_Health"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SALUD" />
+            <Button
+                android:id="@+id/btn_Trophy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="LOGROS"
+
+                />
+        </LinearLayout>
+</RelativeLayout>

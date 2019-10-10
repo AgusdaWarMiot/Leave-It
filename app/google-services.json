@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347840315638",
+    "firebase_url": "https://leave-it-16654.firebaseio.com",
+    "project_id": "leave-it-16654",
+    "storage_bucket": "leave-it-16654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347840315638:android:a526e9c121e54e056decd7",
+        "android_client_info": {
+          "package_name": "com.murez.android.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347840315638-97fmn6u0fcjndmgj0k9vbqlvfm652t04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeDIUIHp3Wt-ElCA7s_NLwHbR9_6JcK4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347840315638-97fmn6u0fcjndmgj0k9vbqlvfm652t04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
